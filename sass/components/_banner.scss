@@ -1,0 +1,28 @@
+#banner{
+    background: url(../images/banner.jpg) no-repeat center/cover;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    .banner-content{
+        h1{
+            @include fonts('Inter',65px,700,$scolor);
+            span{
+                color: $textorange;
+            }
+        }
+        p{
+            @include fonts('Inter',16px,400,$scolor);
+            line-height: 28px;
+            padding-right: 200px;
+        }
+        .banner-btn{
+            margin-top: 30px;
+            button{
+                border: none;
+                background-color: $btnbg;
+                padding: 14px 50px;
+                border-radius: 10px;
+                @include fonts('Inter',20px,600,$pcolor);
+            }
+        }
+    }
+}

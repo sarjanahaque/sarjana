@@ -1,0 +1,10 @@
+#topbar{
+    background-color: $topbarbg;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    .top-bar-text{
+        h4{
+            @include fonts('Inter',16px,400,$pcolor);
+        }
+    }
+}
